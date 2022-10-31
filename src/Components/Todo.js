@@ -10,6 +10,8 @@ function Todo() {
 
     useEffect(() =>{
         localStorage.setItem("data", JSON.stringify(data))
+
+        // second commit
     },[data]);
 
     const onChangeHandler = (e) =>{
